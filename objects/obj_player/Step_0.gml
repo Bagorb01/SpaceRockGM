@@ -4,10 +4,10 @@ var v = keyboard_check(vk_down) - keyboard_check(vk_up);
 if (h != 0 || v != 0) {
     var target = point_direction(0, 0, h, v);
     direction = target;
-    speed = 4;
+    speed = 3;
 
     // turn speed in degrees
-    var turn = 10;
+    var turn = 8;
 
     // shortest difference from source to destination
     var d = angle_difference(target, image_angle);
