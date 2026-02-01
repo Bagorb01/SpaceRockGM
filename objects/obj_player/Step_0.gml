@@ -20,7 +20,7 @@ if (h != 0 || v != 0) {
 
 move_wrap(true, true, 0) // prevents player from getting lost off screen
 
-if keyboard_check(vk_space) 
+if keyboard_check_pressed(vk_space) 
 {
 	instance_create_layer(x, y, "Instances", obj_bullet);
 }
